@@ -60,7 +60,7 @@
 
 
 .condiv {
-	background-image: url('../img/game_over.png');
+	background-image: url('../img/student.png');
 	background-size: 675px 760px;
 	background-repeat: no-repeat;
 	background-position: bottom right;
@@ -124,16 +124,16 @@
 	border: none;
 	border-radius: 10px;
  	color: inherit;
- 	background-color: var(--second-color);
+ 	background-color: var(--main-color);
  	cursor: pointer;
- 	box-shadow: 0 0 15px var(--second-color);
+ 	box-shadow: 0 0 15px var(--main-color);
  	transition-duration: 0.5s;
  	transition-property: background-color, border;
 }
 
 .condiv-section__button:hover, 
 .condiv-section__button:focus {
-	background-color: #840AA3;
+	background-color: var(--second-color);
 }
 
 .condiv-section__button:active {
