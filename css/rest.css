@@ -22,6 +22,8 @@
 .rest-section__item {
 	font-weight: 700px;
 	font-size: 20px;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
 	width: 380px;
 	height: 230px;
 	padding: 165px 40px 0 40px;
@@ -36,46 +38,46 @@
 	transform: translateY(70px) scale(1.1);
 }
 
-.vr-glasses {
-	background-image: url('../img/glasses.jpg');
+.rest-1 {
+	background-image: url('../img/rest-1.jpg');
 	background-size: cover;
 	transition-duration: 1s;
 }
-.audio {
-	background-image: url('../img/audio_system.jpg');
-	background-size: cover;
-	transition-duration: 1s;
-}
-
-.karaoke {
-	background-image: url('../img/karaoke.jpg');
+.rest-2 {
+	background-image: url('../img/rest-2.jpg');
 	background-size: cover;
 	transition-duration: 1s;
 }
 
-.card-game {
-	background-image: url('../img/card_game.jpg');
+.rest-3 {
+	background-image: url('../img/rest-3.jpg');
 	background-size: cover;
 	transition-duration: 1s;
 }
 
-.cinema {
-	background-image: url('../img/cinema.jpg');
+.rest-4 {
+	background-image: url('../img/rest-4.jpg');
 	background-size: cover;
 	transition-duration: 1s;
 }
 
-.ps5 {
-	background-image: url('../img/playstation.jpg');
+.rest-5 {
+	background-image: url('../img/rest-5.jpg');
 	background-size: cover;
 	transition-duration: 1s;
 }
 
-.vr-glasses:hover,
-.audio:hover,
-.karaoke:hover,
-.card-game:hover,
-.cinema:hover,
-.ps5:hover {
+.rest-6 {
+	background-image: url('../img/rest-6.jpg');
+	background-size: cover;
+	transition-duration: 1s;
+}
+
+.rest-1:hover,
+.rest-2:hover,
+.rest-3:hover,
+.rest-4:hover,
+.rest-5:hover,
+.rest-6:hover {
 	transform: scale(1.1);
 }
