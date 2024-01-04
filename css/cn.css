@@ -1,0 +1,20 @@
+.cn-section__desc {
+	width: 800px;
+	height: 520px;
+	margin: 0 auto;
+}
+
+.cn {
+	background-image: url('../img/chinese.jpg');
+	background-size: 800px 520px;
+	transition-duration: 1s;
+	font-weight: 700;
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	padding: 230px 240px;
+}
+
+.cn:hover {
+	transform: scale(1.15);
+}

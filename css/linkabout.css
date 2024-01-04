@@ -1,5 +1,13 @@
 .linkabout-div {
 	background-image: url('../img/about.jpg');
+	background-size: contain 600px 570px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 0;
+}
+
+.linkabout-div-an {
+	background-image: url('../img/anpage.jpg');
 	background-size: 600px 570px;
 	background-repeat: no-repeat;
 	background-position: left bottom;

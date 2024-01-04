@@ -6,7 +6,9 @@
 @import 'feedback.css';
 @import 'question.css';
 @import 'footer.css';
-
+@import 'eng.css';
+@import 'cn.css';
+@import 'cont.css';
 
 html {
   position: relative;

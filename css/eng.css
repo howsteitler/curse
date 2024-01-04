@@ -1,0 +1,46 @@
+.eng-section__desc {
+	width: 800px;
+	height: 520px;
+	margin: 0 auto;
+}
+
+.eng {
+	background-image: url('../img/english.jpg');
+	background-size: 800px 520px;
+	transition-duration: 1s;
+	font-weight: 700;
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	padding: 230px 240px;
+}
+
+.eng:hover {
+	transform: scale(1.15);
+}
+
+.eng-section__p {
+	padding-top: 80px;
+	font-size: 20px;
+}
+
+.color {
+	max-width: 600px;
+	margin: 0 auto;
+	border: 2px #000;
+	border-radius: 30px;
+}
+
+.color-li>.color-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.color-item:hover {
+	background-color: #fcd29f;
+}
+
+.orange {
+	color: var(--main-color);
+}
