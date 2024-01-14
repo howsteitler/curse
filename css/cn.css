@@ -1,20 +1,40 @@
-.cn-section__desc {
-	width: 800px;
-	height: 520px;
+.cn-section {	
+	background: linear-gradient(180deg, #fff 0%, #fcf4ef 100%)
+}
+
+.cn-section__div {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 50px 500px 50px 500px;
+}
+
+.cn-section__title {
+	padding-bottom: 20px;
+}
+
+.div__list {
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 50px;
+	font-size: 20px;
+	font-weight: 500;
+	min-width: 320px;
+	max-width: 1250px;
 	margin: 0 auto;
 }
 
-.cn {
-	background-image: url('../img/chinese.jpg');
-	background-size: 800px 520px;
-	transition-duration: 1s;
-	font-weight: 700;
-	font-size: 50px;
-	color: #fff;
-	text-shadow: 2px 2px 2px #000;
-	padding: 230px 240px;
+.cn-section__list {
+	margin-left: 15px;
 }
 
-.cn:hover {
-	transform: scale(1.15);
+.cn-section__item {
+	list-style-type: disc;
+}
+
+.cn-section__list>.cn-section__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.empty {
+	padding: 35px;
 }

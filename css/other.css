@@ -1,0 +1,75 @@
+.oth1-section {	
+	background: linear-gradient(180deg, #fff 0%, #fcf4ef 100%)
+}
+
+.oth1-section__div {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 50px 500px 50px 500px;
+}
+
+.oth1-section__title {
+	padding-bottom: 20px;
+}
+
+.div__list {
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 50px;
+	font-size: 20px;
+	font-weight: 500;
+	min-width: 320px;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.oth1-section__list {
+	margin-left: 15px;
+}
+
+.oth1-section__item {
+	list-style-type: disc;
+}
+
+.oth1-section__list>.oth1-section__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+
+.oth2-section {	
+	background-color: #fcf4ef;
+}
+
+.oth2-section__div {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 50px 500px 50px 500px;
+}
+
+.oth2-section__title {
+	padding-bottom: 20px;
+}
+
+.div__list {
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 50px;
+	font-size: 20px;
+	font-weight: 500;
+	min-width: 320px;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.oth2-section__list {
+	margin-left: 15px;
+}
+
+.oth2-section__item {
+	list-style-type: disc;
+}
+
+.oth2-section__list>.oth2-section__item:not(:last-child) {
+    margin-bottom: 20px;
+}
